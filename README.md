@@ -1,13 +1,3 @@
-import streamlit as st
-from PIL import Image
-
-st.set_page_config(layout='centered', page_icon='📈', page_title='Market data analysis 📈')
-
-
-# st.sidebar.markdown("# Main page 🎈")
-
-st.markdown('''
-
 # Market data analysis 📈
 
 In this app, we take a deep dive into common market analysis using Python data stack.
@@ -52,10 +42,7 @@ In the streamlit app, we provided some basic charts to interact with the data ex
 of two pages:
 - Completeness: a visual inspection on the database to look for missing values. Ideally, this is made in some automatic way; however, we are simplifying it a little bit. 
 - Prices: an interactive chart for the closing price for stocks. 
-''')
 
-image = Image.open('analysis/assets/1.png')
-st.image(image, caption='Completness page')
+![Completness page](analysis/assets/1.png "Completness page")
 
-image = Image.open('analysis/assets/2.png')
-st.image(image, caption='Prices page')
+![Prices page](analysis/assets/2.png "Prices page")
