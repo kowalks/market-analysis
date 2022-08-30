@@ -1,0 +1,3 @@
+from pipelines.prices import prices_pipeline
+from pipelines.tickers import tickers_pipeline
+from pipelines.exchanges import exchanges_pipeline
